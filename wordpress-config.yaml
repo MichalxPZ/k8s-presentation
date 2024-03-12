@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: wordpress-config
+data:
+  mysql-host: "mysql-service"
+  mysql-database: "demo"
